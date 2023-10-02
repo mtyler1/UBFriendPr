@@ -4,28 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snow</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-  <script src="particles.js"></script> 
-  <script src="app.js"></script> 
-  <script src="Snow.js"></script> 
+  
+  <script src="js/Snow.js"></script> 
     <script src="./index.js"></script>
 </head>
 
 <noscript>
   <h1 style="font-family: Arial, Helvetica, sans-serif;">Snow requires JavaScript to be enabled in your browser, if you need help enabling it, <a href="https://www.wikihow.com/Enable-JavaScript">Click here to get help enabling JavaScript</a></h1>
 </noscript>
-<body>
-  <div id="particles-js">
+<body onload="GetTabName()">
+ <div id="particles-js">
     <nav id="NavBar">
       <h1 id="SnowLogo">Snow</h1>
         <ul id="UL">
-            <li onclick="redirect('./settings.html')">Settings</li>
+            <li onclick="redirect('setting.html')">Settings</li>
             <li style="color: rgb(37, 117, 207);">Home</li>
         </ul>
     </nav>
     <div id="Proxy">
-      <h1>Search</h1>
+      <span id="He1">Search</span>
       
       <form id="uv-form" class="flex-center">
         <input
@@ -40,9 +39,14 @@
       <button id="yt">Youtube</button>
       </div>
 </div>  
+</div>
+
 
 <footer>
   <div id="footer1"></div>
 </footer>
+
+    <script src="js/particles.js"></script> 
+  <script src="js/app.js"></script> 
 </body>
 </html>
