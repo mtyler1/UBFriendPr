@@ -22,7 +22,7 @@ form.addEventListener("submit", async (event) => {
   try {
     await registerSW();
   } catch (err) {
-    alert("Failed to register service worker.");
+    alert("Failed to register service worker.", err);
     throw err;
   }
 
