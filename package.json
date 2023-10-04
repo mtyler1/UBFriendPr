@@ -8,7 +8,7 @@
     "node": ">=16.0.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node ./index.js"
   },
   "author": "",
   "license": "GPL-3.0-or-later",
@@ -20,5 +20,8 @@
   "devDependencies": {
     "eslint": "^8.36.0",
     "prettier": "^2.8.4"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
