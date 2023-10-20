@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito:wght@800&family=Open+Sans&family=Poppins&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Inria+Sans&family=Lato&family=Montserrat&family=Nunito&family=Onest&family=Open+Sans&family=PT+Sans&family=Poppins&family=Ubuntu&display=swap');
 
 body {
     background-color: rgb(25,25,25);
@@ -7,18 +7,19 @@ body {
 
 #Proxy {
 text-align: center;
-align-items: center;     position: absolute;
+align-items: center;     
+position: absolute;
 text-align: center;
 top: 30%;
 width: 100%;  
 z-index: 100;
 }
 
-#Proxy h1 {
+#Proxy h2 {
     color: lightgray;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    letter-spacing: 0.01cm;
-    font-size: 32pt;
+    font-weight: 400;
+  font-size: 28pt;
 }
 
 #uv-address {
@@ -83,13 +84,14 @@ z-index: 100;
 #Settings h1 {
     color: lightgray;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    letter-spacing: 0.01cm;
     font-size: 26pt;
+  font-weight: 400;
 }
 
 #Settings h2 {
     color: lightgray;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 400;
     letter-spacing: 0.01cm;
     font-size: 22pt;
     text-align: left;
@@ -190,10 +192,41 @@ canvas
 
 #SnowLogo {
     font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  font-weight: 400;
     float: left;
     color: lightgray;
     padding: 0;
     margin: 0;
     margin-left: 12px;
     margin-top: 9px;
+}
+
+#He1 {
+  font-family: "Poppins";
+  font-size: 26pt;
+  font-weight: 500;
+  color: white;
+}
+
+#Settings h3 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 15pt;
+}
+
+#He21 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 22pt;
+  text-align: left;
+  color: white;
+}
+
+#Settings hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #5e5e5e;
+  margin: 1em 0;
+  padding: 0;
 }
